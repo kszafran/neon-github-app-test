@@ -1,5 +1,4 @@
-me: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+name: GitHub integration test
 on: [push]
 env:
   NEON_API_KEY: ${{ secrets.NEON_API_KEY }}
