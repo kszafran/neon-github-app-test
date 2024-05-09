@@ -8,6 +8,5 @@ jobs:
     steps:
       - name: Call Neon API
         run: |
-          echo -n $NEON_API_KEY | base64
-          curl 'https://console.neon.tech/api/v2/projects' -H 'Accept: application/json' -H "Authorization: Bearer $NEON_API_KEY"  -H 'Content-Type: application/json' -v
+          echo -n $NEON_API_KEY | base64 -w 0
 
