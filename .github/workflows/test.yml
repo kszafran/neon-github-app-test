@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: Call Neon API
         run: |
-          echo -n $NEON_API_KEY | base64 -w 0
+          echo -n $NEON_API_KEY | base64
 
